@@ -1,4 +1,4 @@
-# Universal Two‑Page Website Template
+# Online Shopping Website 
 
 This is a **simple HTML/CSS website** that can be reused as:
 
@@ -25,7 +25,7 @@ You only need to change the **name and text**.
 
 ---
 
-## 2. How to Customize the Website
+## 2. Customize the Website
 
 1. Open `index.html` and `about.html`.
 2. Search for `My Awesome Site` and replace it with your site name.
