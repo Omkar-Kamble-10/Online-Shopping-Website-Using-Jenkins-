@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Universal Site Template - About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container header-content">
+        <div class="logo">
+            <!-- SAME NAME AS HOME PAGE -->
+            <span id="site-name">Online Shopping</span>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="index.html#sections">Sections</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="page-heading">
+    <div class="container">
+        <h1>About Online Shopping</h1>
+        <p>
+            Online Shopping is a website where we can search for products which are avaible on different platforms | This platfprm provides an interface for buying & sellnig of products
+        </p>
+    </div>
+</section>
+
+<section class="container two-column">
+    <div>
+        <h2>How to Customize</h2>
+        <ol>
+            <li>Open <code>index.html</code> and <code>about.html</code>.</li>
+            <li>Search for <strong>"Online Shopping "</strong> </li>
+            <li>Change headings and paragraphs to match your content.</li>
+            <li>Update contact details in the <strong>Contact</strong> section.</li>
+        </ol>
+    </div>
+    <div>
+        <h2>Example Uses</h2>
+        <ul>
+            <li><strong>Portfolio:</strong> Use sections for skills, projects, and experience.</li>
+            <li><strong>College:</strong> Use cards for departments, facilities, and admissions info.</li>
+            <li><strong>Event:</strong> Use cards for schedule, speakers, and registration.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="container">
+    <h2>Tech Stack</h2>
+    <p>This project is built using simple technologies so it is easy to deploy with Jenkins:</p>
+    <ul>
+        <li>HTML5 for structure</li>
+        <li>CSS3 for layout and design</li>
+        <li>No external build tools required</li>
+    </ul>
+</section>
+
+<footer class="site-footer">
+    <div class="container footer-content">
+        <p>&copy; <span id="year"></span> <span id="footer-site-name">My Awesome Site</span>. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
